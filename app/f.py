@@ -6,5 +6,8 @@ if TYPE_CHECKING:
     from app.c import Company
 
 
-class FormTemplate:
-    pass
+# uncommenting class below shows the invalid error, but with less info on
+# what's going on.
+
+# class FormTemplate:
+#     pass
